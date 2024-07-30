@@ -57,6 +57,10 @@ nginx -s reload
 
 
 /etc/nginx/sites-available/default
+/etc/nginx/nginx.conf
+/etc/nginx/nginx.conf.default
+
+
 
 
 
