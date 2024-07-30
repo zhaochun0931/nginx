@@ -36,7 +36,8 @@ yum install nginx
 
 
 
-
+systemctl status nginx.service
+systemctl start nginx.service
 
 
 
