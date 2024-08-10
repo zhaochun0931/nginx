@@ -1,17 +1,14 @@
 # ubuntu
-# nginx install
-
 apt update
 apt install nginx -y
 
 
+# centos 
+yum install nginx
 
 
 
-
-
-# nginx docker
-
+# docker
 docker run -d -it --rm --name nginx -p 8888:80 nginx
 curl localhost:8888
 
@@ -23,8 +20,7 @@ docker exec -it nginx bash
 
 
 
-# centos 
-yum install nginx
+
 
 
 
