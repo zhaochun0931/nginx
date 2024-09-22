@@ -5,3 +5,23 @@ https://github.com/kubernetes/ingress-nginx
 
 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml
+
+
+
+
+
+Pre-flight check
+
+A few pods should start in the ingress-nginx namespace:
+
+kubectl get pods --namespace=ingress-nginx
+
+
+
+
+
+kubectl wait --namespace ingress-nginx --for=condition=ready pod --selector=app.kubernetes.io/component=controller --timeout=120s
+
+
+
+
