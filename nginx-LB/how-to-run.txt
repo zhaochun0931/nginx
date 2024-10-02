@@ -5,7 +5,22 @@ docker network create my-network
 docker run -d --name backend1 --rm --network my-network myweb
 
 # Start backend service 2
-docker run -d --name backend2 --rm -p 8080:8080 --network my-network myweb
+docker run -d --name backend2 --rm --network my-network myweb
+
+
+
+
+
+
+
+
+
+
+docker run -d --rm --network my-network --name myclient arm64v8/alpine sleep 3600
+
+
+apk add curl
+
 
 
 
