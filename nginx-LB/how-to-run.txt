@@ -29,3 +29,12 @@ apk add curl
 
 
 docker build -t my-nginx-loadbalancer .
+
+
+
+# create a lb
+
+docker run -p 80:80 -v $(PWD)/nginx.conf:/etc/nginx/nginx.conf --network my-network --rm --name mylb arm64v8/nginx
+
+docker run -p 80:80 -v $(pwd)/nginx.conf:/etc/nginx/nginx.conf --network my-network --rm --name mylb arm64v8/nginx
+
