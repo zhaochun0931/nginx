@@ -38,3 +38,13 @@ docker run -p 80:80 -v $(PWD)/nginx.conf:/etc/nginx/nginx.conf --network my-netw
 
 docker run -p 80:80 -v $(pwd)/nginx.conf:/etc/nginx/nginx.conf --network my-network --rm --name mylb arm64v8/nginx
 
+
+
+
+
+$ curl localhost
+You've hit 489da29ce60e
+$ curl localhost
+You've hit 9b4fcab4651b
+$
+
