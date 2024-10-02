@@ -1,0 +1,8 @@
+# Create a network for the containers
+docker network create my-network
+
+# Start backend service 1
+docker run -d --name backend1 --network my-network myweb
+
+# Start backend service 2
+docker run -d --name backend2 --network my-network myweb
