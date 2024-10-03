@@ -53,12 +53,6 @@ $
 
 
 
-or use the docker compose command 
-
-docker-compose up -d
-
-
-docker-compose stop
 
 
 
