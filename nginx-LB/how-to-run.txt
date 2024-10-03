@@ -48,3 +48,18 @@ $ curl localhost
 You've hit 9b4fcab4651b
 $
 
+
+
+
+
+
+or use the docker compose command 
+
+docker-compose up -d
+
+
+docker-compose stop
+
+
+
+
