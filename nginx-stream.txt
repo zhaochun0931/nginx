@@ -1,0 +1,1 @@
+NGINX stream module is used for TCP and UDP load balancing. It allows NGINX to handle and route network traffic for protocols that aren't HTTP
