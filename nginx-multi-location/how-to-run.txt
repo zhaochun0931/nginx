@@ -1,0 +1,12 @@
+# curl localhost/xxx/
+hello xxx
+#
+
+
+# curl localhost/yyy/
+hello yyy
+#
+
+# curl localhost
+hello
+#
