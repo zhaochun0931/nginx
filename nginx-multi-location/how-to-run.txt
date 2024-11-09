@@ -1,3 +1,16 @@
+/var/www/
+├── html
+│   ├── index.html
+│   └── index.nginx-debian.html
+├── xxx
+│   └── index.html
+└── yyy
+    └── index.html
+
+
+
+
+
 # curl localhost/xxx/
 hello xxx
 #
