@@ -71,6 +71,12 @@ nginx/
 
 
 
+# two locations for index.html files
+/usr/share/nginx/html/index.html
+/var/www/html
+
+
+
 
 
 
@@ -113,9 +119,7 @@ nginx -s reload
 
 
 
-# two locations for index.html files
-/usr/share/nginx/html/index.html
-/var/www/html
+
 
 
 
