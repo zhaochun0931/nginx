@@ -72,8 +72,8 @@ nginx/
 
 
 # two locations for index.html files
-/usr/share/nginx/html/index.html
-/var/www/html
+/usr/share/nginx/html/
+/var/www/html/
 
 
 
