@@ -1,0 +1,24 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+
+
+
+	server_name _;
+
+	location / {
+		root /var/www/html;
+		index index.html index.htm index.nginx-debian.html;
+	}
+
+	location /xxx {
+		alias /var/www/xxx;
+	}
+
+	location /yyy {
+		alias /var/www/yyy;
+	}
+
+
+}
