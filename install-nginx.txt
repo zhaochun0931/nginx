@@ -11,12 +11,7 @@ yum install nginx
 
 
 
-# docker
-docker run -d -it --rm --name nginx -p 8888:80 nginx
-curl localhost:8888
 
-
-docker exec -it nginx bash
 
 
 
